@@ -1,10 +1,9 @@
 spring:
   application:
-    db:
-      name: dbTest
+    db.name: dbTest
       scripts:
-        schema: '/resources/scripts/schema.sql'
-        data: '/resources/scripts/data.sql'
+        schema: classpath:scripts/schema.sql
+        data: classpath:scripts/data.sql
       
   
   #datasource:

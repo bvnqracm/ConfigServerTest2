@@ -1,7 +1,7 @@
 spring:
   application:
     db:
-      name: dbTest
+      #name: dbTest
       scripts:
         schema: '/resources/scripts/schema.sql'
         data: '/resources/scripts/data.sql'
